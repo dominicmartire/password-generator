@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="main-content">
+                <div id="length">
+                    <div>length</div>
+                    <input type="number" value="16" max="1024" min="8"/>
+                </div>
+                <div id="checkboxes">
+                    <div class="checkbox-element" id="special-characters">
+                        <input type="checkbox"/>
+                        <p>
+                            include special characters (!@#$%^&*)
+                        </p>
+                    </div>
+                    <div class="checkbox-element" id="numbers">
+                        <input type="checkbox"/>
+                        <p>
+                            include numbers
+                        </p>
+                    </div>
+                    <div class="checkbox-element" id="upper">
+                        <input type="checkbox"/>
+                        <p>
+                            include uppercase letters
+                        </p>
+                    </div>
+                </div>
+        
+                <button id="submit">Generate Password</button>
+        
+                <div>
+                    <div id="password"/>
+                </div>
+        
+            </div>
+        </div>
+
+        <script src="index.js">
+
+        </script>
+    </body>
+</html>

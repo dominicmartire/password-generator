@@ -1,0 +1,43 @@
+html, body{ 
+    min-width:100%;
+    background-color: gray;
+}
+
+.checkbox-element{
+    display:flex;
+    flex-direction:row;
+}
+.checkbox-element > p{
+    margin-top: 0px;
+}
+
+#main-content > div{
+    margin-top:10px;
+
+}
+
+#wrapper{
+    width: 75%;
+    height: 100%;
+    background-color:white;
+    border-radius: 5%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    overflow:auto; 
+}
+
+#main-content{
+    position: relative;
+}
+
+#password{
+    position: absolute;
+    bottom:10px;
+    height:10%;
+    font-size:24px;
+    color:blue;
+    margin:auto;
+    width:75%;
+    overflow-wrap: break-word;
+}
